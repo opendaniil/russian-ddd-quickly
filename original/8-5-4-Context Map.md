@@ -1,0 +1,11 @@
+### Context Map
+
+An enterprise application has multiple models, and each model has its own Bounded Context. It is advisable to use the context as the basis for team organization. People in the same team can communicate more easily, and they can do a better job integrating the model and the implementation. While every team works on its model, it is good for everyone to have an idea of the overall picture. A Context Map is a document which outlines the different Bounded Contexts and the relationships between them. A Context Map can be a diagram like the one below, or it can be any written document. The level of detail may vary. What it is important is that everyone working on the project shares and understands it.
+
+![](../img/Image20.png)
+
+It’s not enough to have separate unified models. They have to be integrated, because each model’s functionality is just a part of the entire system. In the end the pieces have to be assembled together, and the entire system must work properly. If the contexts are not clearly defined, it is possible they will overlap each other. If the relationships between contexts are not outlined, there is a chance they won’t work when the system is integrated.
+
+Each Bounded Context should have a name which should be part of the Ubiquitous Language. That helps the team communication a lot when talking about the entire system. Everyone should know the boundaries of each context and the mapping between contexts and code. A common practice is to define the contexts, then create modules for each context, and use a naming convention to indicate the context each module belongs to.
+
+In the following pages we talk about the interaction between different contexts. We present a series of patterns which can be used to create Context Maps where contexts have clear roles and their relationships are pointed out. The Shared Kernel and Customer-Supplier are patterns with a high degree of interaction between contexts. Separate Ways is a pattern used when we want the contexts to be highly independent and evolve separately. There are another two patterns dealing with the interaction between a system and a legacy system or an external one, and they are Open Host Services and Anticorruption Layers.

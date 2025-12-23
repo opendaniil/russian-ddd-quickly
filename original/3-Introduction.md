@@ -1,0 +1,13 @@
+## Introduction
+
+Software is an instrument created to help us deal with the complexities of our modern life. Software is just the means to an end, and usually that end is something very practical and real. For example, we use software for air traffic control, and this is directly related to the world surrounding us. We want to fly from one place to another, and we do that using sophisticated machineries, so we create software to coordinate the flight of thousands of airplanes which happen to be in the air at any time. 
+
+Software has to be practical and useful; otherwise we would not invest so much time and resources into its creation. That makes it extremely connected to a certain aspect of our lives. A useful package of software cannot be decoupled from that sphere of reality, the domain it is supposed to help us manage. On the contrary, the software is deeply entangled with it.
+
+Software design is an art, and like any art it cannot be taught and learned as a precise science, by means of theorems and formulas. We can discover principles and techniques useful to be applied throughout the process of software creation, but we probably won’t ever be able to provide an exact path to follow from the real world need to the code module meant to serve that need. Like a picture or a building, a software product will include the personal touch of those who designed and developed it, something of the charisma and flair (or the lack of it) of those who contributed to its inception and growth.
+
+There are different ways to approach software design. For the last 20 years, the software industry has known and used several methods to create its products, each with its advantages and shortcomings. The purpose of this book is to focus on a design method which has emerged and evolved over the last two decades, but has crystallized more clearly during the last few years: domain-driven design. Eric Evans has made a great contribution to this subject matter by writing down in one book much of the accumulated knowledge about domain-driven design. For a more detailed presentation of this topic, we recommend reading his book “Domain-Driven Design: Tackling Complexity in the Heart of Software”, published by Addison-Wesley, ISBN: 0-321-12521-5.
+Many valuable insights can also be learned by following the Domain Driven Design discussion group at: 
+http://groups.yahoo.com/group/domaindrivendesign
+
+This book is only an introduction to the topic, intended to quickly give you a fundamental, but not a detailed understanding of Domain Driven Design. We just want to whet your appetite for good software design with the principles and guidelines used in the world of domain-driven design.
