@@ -1,6 +1,6 @@
 # russian-ddd-quickly
 
-## [Читать на русском](https://openiil.github.io/russian-ddd-quickly/#/)
+## [Читать на русском](https://opendaniil.github.io/russian-ddd-quickly/#/)
 
 ## Русская версия
 
